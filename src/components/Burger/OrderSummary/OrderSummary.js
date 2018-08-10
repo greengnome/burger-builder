@@ -22,8 +22,8 @@ const orderSummary = (props) => {
                 {ingredientSummary}
             </ul>
             <p>Continue to Checkout?</p>
-            <Button btnType="Danger">CANCEL</Button>
-            <Button btnType="Success">CONTINUE</Button>
+            <Button clicked={props.} btnType="Danger">CANCEL</Button>
+            <Button clicked={props.} btnType="Success">CONTINUE</Button>
         </Aux>
     );
 };
