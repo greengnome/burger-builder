@@ -7,10 +7,6 @@
 /coverage
 
 # production
-/config
-/public
-/scripts
-/scripts
 
 # misc
 .DS_Store
