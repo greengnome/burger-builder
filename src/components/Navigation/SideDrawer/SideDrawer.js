@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './SideDrawer.css';
+import classes from './SideDrawer.css';
 import Logo from './../../Logo/Logo';
 import NavigationItems from './../NavigationItems/NavigationItems';
 
