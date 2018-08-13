@@ -4,8 +4,10 @@ import classes from './Spinner.css';
 
 const spinner = (props) => {
     return (
-        <div className={classes.Loader}>
-            Loading...
+        <div style={{height: '100%', display: 'flex', justifyContent: 'center'}}>
+            <div className={classes.Loader}>
+                Loading...
+            </div>
         </div>
     );
 };
